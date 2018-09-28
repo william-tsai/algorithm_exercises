@@ -1,4 +1,4 @@
-function binary_search(arr, num) {
+function binarySearch(arr, num) {
     var low = 0;
     var high = arr.length - 1;
     while (low <= high) {
@@ -16,6 +16,6 @@ function binary_search(arr, num) {
 }
 arr1 = [1,2,3,4,5,6];
 
-console.log(binary_search(arr1, 7));
+console.log(binarySearch(arr1, 7));
 
-console.log(binary_search(arr1, 4));
+console.log(binarySearch(arr1, 4));

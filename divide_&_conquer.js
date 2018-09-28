@@ -33,7 +33,7 @@ function findMax(arr) {
 
 console.log(findMax([0]));
 
-function binary_search(arr, num) {
+function binarySearch(arr, num) {
     // base case:
     if (arr.length == 1) {
         if (arr[0] == num) {
@@ -43,6 +43,6 @@ function binary_search(arr, num) {
         }
     } else {
     // recursive case:
-        binary_search(arr.slice(Math.floor(arr.length / 2)), num)
+        binarySearch(arr.slice(Math.floor(arr.length / 2)), num)
     }
 }
